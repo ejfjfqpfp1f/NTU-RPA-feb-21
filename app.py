@@ -7,7 +7,7 @@ def index();
  return(render_template("index,html"))
 
 @app.route("/main",methods=["GET","POST"])
- def main（）：
+ def main():
 name=request,form,get("name")
 return(rander_templates("main,html",r=name))
 
