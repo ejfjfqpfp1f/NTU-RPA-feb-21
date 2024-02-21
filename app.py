@@ -44,4 +44,4 @@ def end():
     return(render_template("end.html"))
 
 if __name__ == "__main__":
-    app.run(
+    app.run()
